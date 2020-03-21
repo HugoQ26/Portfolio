@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Chat App",
+    "githublink": "https://github.com/HugoQ26/websockets",
+    "deploylink": "",
+    "techstack": ["node", "express", "socket", "js"],
+    "descrition": "Simple chat app without frontend libriaries, using socket.io",
+    "img": ""
+  },
+  {
+    "id": 2,
+    "name": "Concert tickets",
+    "githublink": "https://github.com/HugoQ26/kodilarestapi",
+    "deploylink": "https://concertsrest.herokuapp.com/",
+    "techstack": ["node", "express", "socket", "js", "rest"],
+    "descrition": "Order a ticket for a concert and book a seat using rest api and socket.io",
+    "img": ""
+  },
+  {
+    "id": 3,
+    "name": "Todo list",
+    "githublink": "https://github.com/HugoQ26/todoApp",
+    "deploylink": "",
+    "techstack": ["node", "express", "socket", "js"],
+    "descrition": "Todo list - app on node and express with real time update with socket.io",
+    "img": ""
+  },
+  {
+    "id": 4,
+    "name": "Personal page",
+    "githublink": "https://github.com/HugoQ26/express_2_handlebars",
+    "deploylink": "",
+    "techstack": ["node", "express", "handlebars", "js"],
+    "descrition": "Simple personal page with contact form with file upload using node, express and handlebars template language",
+    "img": ""
+  },
+  {
+    "id": 5,
+    "name": "Electron app 1",
+    "githublink": "https://github.com/HugoQ26/electron",
+    "deploylink": "",
+    "techstack": ["electron", "react", "js"],
+    "descrition": "An Electron app which main goal is to count down time from 20 minutes for work and then 5 minutes break.",
+    "img": ""
+  },
+  {
+    "id": 6,
+    "name": "Picture Watermark app",
+    "githublink": "https://github.com/HugoQ26/-module26_exc2",
+    "deploylink": "",
+    "techstack": ["inquirer", "jimp", "js"],
+    "descrition": "A command line app which add text or image watermark on image chosen from img folder.",
+    "img": ""
+  }
+]
