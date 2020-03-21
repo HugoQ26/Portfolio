@@ -6,7 +6,7 @@ import ProjectCardsGrid from './components/features/ProjectCardsGrid/ProjectCard
 
 function App() {
   return (
-    <Container fluid="sm" className="App">
+    <Container fluid className="App">
       <ProjectCardsGrid />
     </Container>
   );

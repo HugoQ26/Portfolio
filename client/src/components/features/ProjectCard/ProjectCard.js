@@ -5,8 +5,8 @@ import './ProjectCard.style.scss';
 const ProjectCard = ({ project }) => {
   const { name, githublink, deploylink, techstack, description, img } = project;
   return (
-    <Col className="section--card">
-      <Card border="success" style={{ width: '20rem', marginTop: '2rem' }}>
+    <Col xs={12} sm={6} lg={4} className="section--card">
+      <Card border="success">
         <Card.Header as="h5">{name}</Card.Header>
         <Card.Img variant="top" src={`/images/${img}`} />
         <Card.Body>

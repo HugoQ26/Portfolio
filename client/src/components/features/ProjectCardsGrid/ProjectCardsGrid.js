@@ -1,17 +1,15 @@
 import React from 'react';
-import { Container, Row, CardDeck } from 'react-bootstrap';
+import { Container, Row, CardColumns } from 'react-bootstrap';
 import ProjectCard from '../ProjectCard/ProjectCard';
 import projectsDb from '../../../data/projects.json';
 
 const ProjectCardsGrid = props => {
   return (
-    <Container>
+    <Container fluid="lg">
       <Row>
-        <CardDeck>
-          {projectsDb.map(project => (
-            <ProjectCard project={project} key={project.id} />
-          ))}
-        </CardDeck>
+        {projectsDb.map(project => (
+          <ProjectCard project={project} key={project.id} />
+        ))}
       </Row>
     </Container>
   );
