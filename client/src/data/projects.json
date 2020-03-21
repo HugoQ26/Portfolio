@@ -4,17 +4,17 @@
     "name": "Chat App",
     "githublink": "https://github.com/HugoQ26/websockets",
     "deploylink": "",
-    "techstack": ["node", "express", "socket", "js"],
-    "descrition": "Simple chat app without frontend libriaries, using socket.io",
-    "img": ""
+    "techstack": ["node-js", "express", "socket", "js"],
+    "description": "Simple chat app without frontend libriaries, using socket.io",
+    "img": "chat.gif"
   },
   {
     "id": 2,
     "name": "Concert tickets",
     "githublink": "https://github.com/HugoQ26/kodilarestapi",
     "deploylink": "https://concertsrest.herokuapp.com/",
-    "techstack": ["node", "express", "socket", "js", "rest"],
-    "descrition": "Order a ticket for a concert and book a seat using rest api and socket.io",
+    "techstack": ["node-js", "express", "socket", "js"],
+    "description": "Order a ticket for a concert and book a seat using own rest api and socket.io",
     "img": ""
   },
   {
@@ -22,8 +22,8 @@
     "name": "Todo list",
     "githublink": "https://github.com/HugoQ26/todoApp",
     "deploylink": "",
-    "techstack": ["node", "express", "socket", "js"],
-    "descrition": "Todo list - app on node and express with real time update with socket.io",
+    "techstack": ["node-js", "express", "socket", "js"],
+    "description": "Todo list - app on node-js and express with real time update with socket.io",
     "img": ""
   },
   {
@@ -31,8 +31,8 @@
     "name": "Personal page",
     "githublink": "https://github.com/HugoQ26/express_2_handlebars",
     "deploylink": "",
-    "techstack": ["node", "express", "handlebars", "js"],
-    "descrition": "Simple personal page with contact form with file upload using node, express and handlebars template language",
+    "techstack": ["node-js", "express", "handlebars", "js"],
+    "description": "Simple personal page with contact form with file upload using node-js, express and handlebars template language",
     "img": ""
   },
   {
@@ -41,7 +41,7 @@
     "githublink": "https://github.com/HugoQ26/electron",
     "deploylink": "",
     "techstack": ["electron", "react", "js"],
-    "descrition": "An Electron app which main goal is to count down time from 20 minutes for work and then 5 minutes break.",
+    "description": "An Electron app which main goal is to count down time from 20 minutes for work and then 5 minutes break.",
     "img": ""
   },
   {
@@ -49,8 +49,8 @@
     "name": "Picture Watermark app",
     "githublink": "https://github.com/HugoQ26/-module26_exc2",
     "deploylink": "",
-    "techstack": ["inquirer", "jimp", "js"],
-    "descrition": "A command line app which add text or image watermark on image chosen from img folder.",
+    "techstack": ["js"],
+    "description": "A command line app made with Inquirer and Jimp which add text or image watermark on image chosen from img folder.",
     "img": ""
   }
 ]

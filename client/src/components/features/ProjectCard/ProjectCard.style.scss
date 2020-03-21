@@ -1,0 +1,16 @@
+.section--card {
+  a {
+    img {
+      transition: all 500ms;
+      &:hover {
+        transform: rotateY(360deg);
+      }
+    }
+  }
+
+  .card-footer {
+    img {
+      margin: 0 5px;
+    }
+  }
+}

@@ -1,14 +1,14 @@
 import React from 'react';
-import Icon from './components/common/Icon/Icon';
+import { Container } from 'react-bootstrap';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import ProjectCardsGrid from './components/features/ProjectCardsGrid/ProjectCardsGrid';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Workingg for me now</h1>
-      <div>
-        <Icon name="flag" />
-      </div>
-    </div>
+    <Container fluid="sm" className="App">
+      <ProjectCardsGrid />
+    </Container>
   );
 }
 
