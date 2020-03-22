@@ -8,7 +8,7 @@ const ProjectCard = ({ project }) => {
     <Col xs={12} sm={6} lg={4} className="section--card">
       <Card border="success">
         <Card.Header as="h5">{name}</Card.Header>
-        <Card.Img variant="top" src={`/images/${img}`} />
+        {img && <Card.Img variant="top" src={`/images/${img}`} />}
         <Card.Body>
           <Card.Subtitle className="mb-2 text-muted">Description</Card.Subtitle>
           <Card.Text>{description}</Card.Text>
