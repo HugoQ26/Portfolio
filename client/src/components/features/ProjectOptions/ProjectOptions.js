@@ -1,5 +1,6 @@
 import React from 'react';
 import { Col, Form } from 'react-bootstrap';
+import './ProjectOptions.style.scss';
 import techStacks from '../../../data/techstacks';
 
 const ProjectOptions = ({ filters, setFilters }) => {
@@ -19,10 +20,10 @@ const ProjectOptions = ({ filters, setFilters }) => {
   };
 
   return (
-    <Col lg={12}>
+    <Col lg={12} className="form--group">
       <Form>
         <Form.Row>
-          <Col xs={12} sm={6} lg={4}>
+          <Col xs={12} sm={6} lg={4} className="input--group">
             <Form.Label>Project name</Form.Label>
             <Form.Control
               onChange={e => handleChange(e)}
@@ -32,7 +33,7 @@ const ProjectOptions = ({ filters, setFilters }) => {
               name="title"
             />
           </Col>
-          <Col xs={12} sm={6} lg={4}>
+          <Col xs={12} sm={6} lg={4} className="input--group">
             <Form.Label>Tech used:</Form.Label>
             <div>
               {techStacks.map(tech => (
@@ -48,7 +49,8 @@ const ProjectOptions = ({ filters, setFilters }) => {
               ))}
             </div>
           </Col>
-          <Col xs={12} sm={6} lg={4}>
+          <Col xs={12} sm={6} lg={4} className="input--group">
+            <Form.Label>Project deployed:</Form.Label>
             <Form.Check
               onChange={e => handleChange(e)}
               type="switch"
