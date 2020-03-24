@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Chat App",
-    "githublink": "https://github.com/HugoQ26/webSocket.ios",
+    "githublink": "https://github.com/HugoQ26/websockets",
     "deploylink": "",
     "techstack": ["Node.js", "Express", "Socket.io", "Js"],
     "description": "Simple chat app without frontend libriaries, using Socket.io .",
