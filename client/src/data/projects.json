@@ -5,7 +5,7 @@
     "githublink": "https://github.com/HugoQ26/webSocket.ios",
     "deploylink": "",
     "techstack": ["Node.js", "Express", "Socket.io", "Js"],
-    "description": "Simple chat app without frontend libriaries, using Socket.io.io",
+    "description": "Simple chat app without frontend libriaries, using Socket.io .",
     "img": "chat.gif"
   },
   {
@@ -14,7 +14,7 @@
     "githublink": "https://github.com/HugoQ26/kodilarestapi",
     "deploylink": "https://concertsrest.herokuapp.com/",
     "techstack": ["Node.js", "Express", "Socket.io", "Js"],
-    "description": "Order a ticket for a concert and book a seat. My job was to make a Rest api, use that api in the React's frontend and all the logic.And use Socket.io in some cases",
+    "description": "Order a ticket for a concert and book a seat. My job was to make a Rest api, use that api in the React's frontend and all the logic. And use Socket.io in some cases.",
     "img": "concert.gif"
   },
   {
@@ -23,7 +23,7 @@
     "githublink": "https://github.com/HugoQ26/todoApp",
     "deploylink": "",
     "techstack": ["Node.js", "Express", "Socket.io", "Js"],
-    "description": "Todo list - app on node-js and Express with real time update with Socket.io.io",
+    "description": "Todo list - app on node-js and Express with real time update with Socket.io .",
     "img": ""
   },
   {
@@ -32,7 +32,7 @@
     "githublink": "https://github.com/HugoQ26/Express_2_handlebars",
     "deploylink": "",
     "techstack": ["Node.js", "Express", "Handlebars", "Js"],
-    "description": "Simple personal page with contact form with file upload using node-js, Express and handlebars template language",
+    "description": "Simple personal page with contact form with file upload using Node.js, Express and handlebars template language.",
     "img": ""
   },
   {
