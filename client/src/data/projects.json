@@ -13,8 +13,8 @@
     "name": "Concert tickets",
     "githublink": "https://github.com/HugoQ26/kodilarestapi",
     "deploylink": "https://concertsrest.herokuapp.com/",
-    "techstack": ["Node.js", "Express", "Socket.io", "Js"],
-    "description": "Order a ticket for a concert and book a seat. My job was to make a Rest api, use that api in the React's frontend and all the logic. And use Socket.io in some cases.",
+    "techstack": ["Node.js", "Express", "Socket.io", "Js", "Mongodb"],
+    "description": "Order a ticket for a concert and book a seat. My job was to make a Rest api with MongoDb, use that api in the React's frontend and all the logic. And use Socket.io in some cases.",
     "img": "concert.gif"
   },
   {
